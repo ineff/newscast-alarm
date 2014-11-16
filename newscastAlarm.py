@@ -22,6 +22,7 @@ color: white;
 GtkLabel {
 font-size: 8ex;
 padding: 10px;
+color: white;
 }
 #Countdown {
 font-size: 8em;
