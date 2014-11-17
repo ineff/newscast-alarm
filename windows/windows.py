@@ -15,7 +15,7 @@ class NewsAlarm(Gtk.Window):
     
    def __init__(self):
 
-      Gtk.Window.__init__(self,title='Timer') # Call the Gtk.Window constructor 
+      Gtk.Window.__init__(self,title='NewscastAlarm') # Call the Gtk.Window constructor 
       self.set_name('AlarmWindow')
       self.vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=1) 
       self.message = Gtk.Label('Il radiogiornale cominciera` in:')
